@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Header() {
     return (
-        <header>
+        <div className="bg">
             {/* left div : logo */}
-            <div className='relative flex items-center h-10 w-20'>
+            <div className="relative flex items-center justify-center h-10">
                 <Image 
                     src="https://links.papareact.com/qd3"
                     layout="fill"
@@ -23,7 +23,7 @@ function Header() {
 
             </div>
 
-        </header>
+        </div>
     )
 }
 
